@@ -8,17 +8,13 @@ import java.util.List;
 public class Sentence {
 
     @XmlElement
-    private List<Sentence> sentences;
-
-    @XmlElement
     private List<String> words;
 
-    public List<Sentence> getSentences() {
-        return sentences;
+    public Sentence() {
     }
 
-    public void setSentences(List<Sentence> sentences) {
-        this.sentences = sentences;
+    public Sentence(List<String> words) {
+        this.words = words;
     }
 
     public List<String> getWords() {

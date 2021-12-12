@@ -10,6 +10,7 @@ import java.util.*;
 
 public class Parser {
     public static void main(String[] args){
+        
 
 
         String fullSentence = "Mary had a little lamb.Peter called for the wolf , and Aesop came . Cinderella likes shoes..";
